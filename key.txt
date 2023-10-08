@@ -1,0 +1,41 @@
+#####
+count = 0
+heights[i]
+heights[i+1]
+count++
+count
+#####
+vacation
+day == 0 || day == 6
+"off"
+"10:00"
+day == 0 || day == 6
+"10:00"
+"7:00"
+#####
+str.length() == 0
+"@@"
+str.length() == 1
+str + "@"
+str.substring(0, 2)
+#####
+str.length() - 1
+last
+str
+last
+#####
+str.length()
+count = 0
+i = 0
+inc = 1
+str.length()
+result[count]
+str.charAt(i)
+count++
+inc
+1
+3
+1
+result
+0
+count

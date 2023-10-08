@@ -1,0 +1,83 @@
+We have an array of heights, representing the altitude along a walking 
+trail. Given start/end indexes into the array, return the number of "big" 
+steps for a walk starting at the start index and ending at the end index. 
+We'll say that step is big if it is 5 or more up or down. The start end end 
+index will both be valid indexes into the array with start <= end.
+
+public int bigHeights(int[] heights, int start, int end) {
+    int _________;
+    
+    for(int i = start; i < end; i++) {
+        if(Math.abs(__________ - ____________) >= 5)
+            _______;
+    }
+                    
+    return _____;
+}
+#####
+Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a 
+boolean indicating if we are on vacation, return a string of the form 
+"7:00" indicating when the alarm clock should ring. Weekdays, the alarm 
+should be "7:00" and on the weekend it should be "10:00". Unless we are on 
+vacation -- then on weekdays it should be "10:00" and weekends it should 
+be "off".
+
+public String alarmClock(int day, boolean vacation) {
+    if(________) {
+        if(____________________)
+            return _____;
+        else
+            return _______;
+    }
+                          
+    if(____________________)
+        return _______;
+                                    
+    return ______;
+}
+#####
+Given a string, return a string length 2 made of its first 2 chars. If the 
+string length is less than 2, use '@' for the missing chars.
+
+public String atFirst(String str) {
+    if(_________________)
+        return ____;
+          
+    if(_________________)
+        return _________;
+                    
+    return __________________;
+}
+#####
+Given a string, take the last char and return a new string with the last 
+char added at the front and back, so "cat" yields "tcatt". The original 
+string will be length 1 or more.
+
+public String backAround(String str) {
+    char last = str.charAt(________________);
+    return ____ + ___ + ____;
+}
+#####
+Given a string, return a string made of the chars at indexes 
+0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+
+public String altPairs(String str) {
+    char[] result = new char[____________];
+    int _________;
+      
+    int _____;
+    int _______;
+    while(i < ____________) {
+        ____________ = _____________;
+        _______;
+        i += ___;
+                            
+        if(inc == _)
+            inc = _;
+        else
+            inc = _;
+    }
+                                                    
+    return new String(______, _, _____);
+}
+#####
